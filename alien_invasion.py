@@ -10,6 +10,7 @@ from button import Button
 from ship import Ship
 from bullet import Bullet
 from alien import Alien
+from pathlib import Path
 
 
 class AlienInvasion:
@@ -26,7 +27,8 @@ class AlienInvasion:
         pygame.display.set_caption("Alien Invasion")
 
         # Background image
-        self.background = pygame.image.load("images/bg5.jpg")
+        BG_IMAGE = Path("images/bg5.jpg")
+        self.background = pygame.image.load(BG_IMAGE)
         
 
         # Create an instance to store game statistics,
