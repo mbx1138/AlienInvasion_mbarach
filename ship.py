@@ -2,6 +2,7 @@ import pygame
 from pygame.sprite import Sprite
 from pathlib import Path
 
+SHIP_PNG = Path("images/ship.png")
 
 class Ship(Sprite):
     """A class to manage the ship."""
@@ -13,9 +14,7 @@ class Ship(Sprite):
         self.settings = ai_game.settings
         self.screen_rect = ai_game.screen.get_rect()
 
-        # Load the ship image and get its rect.
-        SHIP_PNG = Path("images/ship.png")
-        
+        # Load the ship image and get its rect.        
         self.image = pygame.image.load(SHIP_PNG)
         self.rect = self.image.get_rect()
 

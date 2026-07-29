@@ -12,6 +12,7 @@ from bullet import Bullet
 from alien import Alien
 from pathlib import Path
 
+BG_IMAGE = Path("images/bg5.jpg")
 
 class AlienInvasion:
     """Overall class to manage game assets and behavior."""
@@ -27,10 +28,8 @@ class AlienInvasion:
         pygame.display.set_caption("Alien Invasion")
 
         # Background image
-        BG_IMAGE = Path("images/bg5.jpg")
         self.background = pygame.image.load(BG_IMAGE)
         
-
         # Create an instance to store game statistics,
         #   and create a scoreboard.
         self.stats = GameStats(self)
