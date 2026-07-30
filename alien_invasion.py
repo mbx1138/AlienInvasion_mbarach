@@ -1,3 +1,23 @@
+"""
+Title: Alien Invasion
+Author: Matt Barach
+Purpose: Main module for the Alien Invasion game. Initializes the game,
+creates the game objects, processes user input, updates the game state,
+and manages the main game loop.
+
+Starter Code: Based on Alien Invasion from Python Crash Course (3rd Edition)
+https://github.com/ehmatthes/pcc_3e/tree/main
+
+Custom Asset Attribution: 
+Asset: Space Background
+Author: Cuzco
+Source: https://opengameart.org/content/space-background
+License: CC0
+
+Date: 7/29/2026
+"""
+
+
 import sys
 from time import sleep
 

@@ -1,3 +1,15 @@
+"""
+Title: Alien Invasion
+Author: Matt Barach
+Purpose: Defines the Settings class
+
+Starter Code: Based on Alien Invasion from Python Crash Course (3rd Edition)
+https://github.com/ehmatthes/pcc_3e/tree/main
+
+Date: 7/29/2026
+"""
+
+
 class Settings:
     """A class to store all settings for Alien Invasion."""
 

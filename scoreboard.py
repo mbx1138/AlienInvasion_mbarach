@@ -1,3 +1,15 @@
+"""
+Title: Alien Invasion
+Author: Matt Barach
+Purpose: Defines the Scoreboard class
+
+Starter Code: Based on Alien Invasion from Python Crash Course (3rd Edition)
+https://github.com/ehmatthes/pcc_3e/tree/main
+
+Date: 7/29/2026
+"""
+
+
 import pygame.font
 from pygame.sprite import Group
 

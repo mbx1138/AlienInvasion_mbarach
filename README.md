@@ -13,3 +13,24 @@ The player controls a spaceship and shoots bullets at invading aliens.
    - [itch.io](https://itch.io/game-assets/free)
 
 # The plan for the fleet formation is a diamond/flying V formation.
+
+
+## Asset Credits
+
+### Ship
+- **Asset:** Spaceship 6
+- **Author:** Skorpio (submitted by wubitog)
+- **Source:** https://opengameart.org/content/spaceship-6
+- **License:** CC BY-SA 3.0
+
+### Laser
+- **Asset:** Assets Free Laser Bullets Pack 2020
+- **Author:** Wenrexa
+- **Source:** https://opengameart.org/content/assets-free-laser-bullets-pack-2020
+- **License:** CC0
+
+### Background
+- **Asset:** Space Background
+- **Author:** Cuzco
+- **Source:** https://opengameart.org/content/space-background
+- **License:** CC0

@@ -1,5 +1,24 @@
+"""
+Title: Alien Invasion
+Author: Matt Barach
+Purpose: Defines the Bullet class and manages fired bullets.
+
+Starter Code: Based on Alien Invasion from Python Crash Course (3rd Edition)
+https://github.com/ehmatthes/pcc_3e/tree/main
+
+Custom Asset Attribution: 
+Asset: Assets Free Laser Bullets Pack 2020
+Author: Wenrexa
+Source: https://opengameart.org/content/assets-free-laser-bullets-pack-2020
+License: CC0
+
+Date: 7/29/2026
+"""
+
+
 import pygame
 from pygame.sprite import Sprite
+
 from pathlib import Path
 
 BULLET_PNG = Path("images/bullet.png")

@@ -1,3 +1,20 @@
+"""
+Title: Alien Invasion
+Author: Matt Barach
+Purpose: Defines the Ship class and manages player movement.
+
+Starter Code: Based on Alien Invasion from Python Crash Course (3rd Edition)
+https://github.com/ehmatthes/pcc_3e/tree/main
+
+Custom Asset Attribution: 
+Asset: Spaceship 6
+Author: Skorpio (submitted by wubitog)
+Source: https://opengameart.org/content/spaceship-6
+License: CC BY-SA 3.0
+
+Date: 7/29/2026
+"""
+
 import pygame
 from pygame.sprite import Sprite
 from pathlib import Path
