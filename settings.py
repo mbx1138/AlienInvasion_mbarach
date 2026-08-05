@@ -17,7 +17,7 @@ class Settings:
         """Initialize the game's static settings."""
         # Screen settings
         self.screen_width = 1200
-        self.screen_height = 800
+        self.screen_height = 1000
 
         # Ship settings
         self.ship_limit = 3
