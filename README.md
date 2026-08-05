@@ -35,7 +35,7 @@ The player controls a spaceship and shoots bullets at invading aliens.
 - **Source:** https://opengameart.org/content/space-background
 - **License:** CC0
 
-### Alien Enemy
+### Alien Ship
 - **Asset:** Alien
 - **Author:** Carlos Alface
 - **Source:** https://opengameart.org/content/spaceships-xenis
