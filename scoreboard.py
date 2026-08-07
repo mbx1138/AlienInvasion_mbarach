@@ -29,7 +29,8 @@ class Scoreboard:
 
         # Font settings for scoring information.
         self.text_color = (30, 30, 30)
-        self.font = pygame.font.SysFont(None, 48)
+        #self.font = pygame.font.SysFont("ariel", 48)
+        self.font = pygame.font.Font("Assets/Fonts/Silkscreen/Merriweather_24pt-ExtraBold.ttf", 58)
 
         # Prepare the initial score images.
         self.prep_score()
