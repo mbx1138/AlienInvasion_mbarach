@@ -50,3 +50,8 @@ class Bullet(Sprite):
     def draw_bullet(self):
         """Add the bullet to the screen."""
         self.screen.blit(self.image, self.rect)
+        self.play_bullet_sound()
+
+    def play_bullet_sound(self):
+        effect = pygame.mixer.Sound('Assets\sound\laser.mp3')
+        effect.play()
