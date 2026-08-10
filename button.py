@@ -25,7 +25,9 @@ class Button:
         self.width, self.height = 200, 50
         self.button_color = (35, 55, 100)
         self.text_color = (250, 250, 250)
-        self.font = pygame.font.SysFont(None, 48)
+        self.font = pygame.font.Font(
+            "Assets/Fonts/Silkscreen/Merriweather_24pt-ExtraBold.ttf",40
+            )
 
         # Build the button's rect object and center it.
         self.rect = pygame.Rect(0, 0, self.width, self.height)
@@ -43,7 +45,6 @@ class Button:
 
     def draw_button(self):
         """Draw blank button and then draw message."""
-        #self.screen.fill(self.button_color, self.rect)
         pygame.draw.rect(
             self.screen,
             self.button_color,
