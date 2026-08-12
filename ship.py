@@ -12,7 +12,7 @@ Author: Skorpio (submitted by wubitog)
 Source: https://opengameart.org/content/spaceship-6
 License: CC BY-SA 3.0
 
-Date: 7/29/2026
+Date: 8/12/2026
 """
 
 import pygame
