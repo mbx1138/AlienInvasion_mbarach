@@ -22,6 +22,7 @@ from pygame.sprite import Sprite
 from pathlib import Path
 
 BULLET_PNG = Path("images/bullet.png")
+BULLET_AUDIO = Path("Assets/sound/laser.wav")
 
 class Bullet(Sprite):
     """A class to manage bullets fired from the ship."""
@@ -50,8 +51,7 @@ class Bullet(Sprite):
     def draw_bullet(self):
         """Add the bullet to the screen."""
         self.screen.blit(self.image, self.rect)
-        self.play_bullet_sound()
 
     def play_bullet_sound(self):
-        effect = pygame.mixer.Sound('Assets\sound\laser.mp3')
+        effect = pygame.mixer.Sound(BULLET_AUDIO)
         effect.play()
