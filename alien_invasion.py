@@ -33,6 +33,7 @@ from alien import Alien
 from pathlib import Path
 
 BG_IMAGE = Path("images/bg5.jpg")
+COLLISION__AUDIO = Path("Assets/sound/explosion.wav")
 
 class AlienInvasion:
     """Overall class to manage game assets and behavior."""
@@ -162,6 +163,9 @@ class AlienInvasion:
                 self.bullets, self.aliens, True, True)
 
         if collisions:
+            self.collision_audio = pygame.mixer.Sound(COLLISION__AUDIO)
+            self.collision_audio.play()
+
             for aliens in collisions.values():
                 self.stats.score += self.settings.alien_points * len(aliens)
             self.sb.prep_score()
