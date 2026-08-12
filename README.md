@@ -40,3 +40,9 @@ The player controls a spaceship and shoots bullets at invading aliens.
 - **Author:** Carlos Alface
 - **Source:** https://opengameart.org/content/spaceships-xenis
 - **License:** CC BY 3.0
+
+### Explosion
+- **Asset:** Explosion Audio
+- **Author:** TinyWorlds
+- **Source:** https://opengameart.org/content/explosion-0
+- **License:** CC0
