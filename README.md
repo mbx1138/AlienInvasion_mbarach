@@ -46,3 +46,9 @@ The player controls a spaceship and shoots bullets at invading aliens.
 - **Author:** TinyWorlds
 - **Source:** https://opengameart.org/content/explosion-0
 - **License:** CC0
+
+### Music Soundtrack
+- **Asset:** Music
+- **Author:** Matthew Pablo
+- **Source:** https://opengameart.org/content/space-boss-battle-theme
+- **License:** CC-BY 3.0
