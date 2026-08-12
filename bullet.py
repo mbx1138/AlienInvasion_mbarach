@@ -54,4 +54,4 @@ class Bullet(Sprite):
 
     def play_bullet_sound(self):
         effect = pygame.mixer.Sound(BULLET_AUDIO)
-        effect.play()
+        effect.play().set_volume(0.5)
