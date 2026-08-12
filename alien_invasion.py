@@ -34,6 +34,7 @@ from pathlib import Path
 
 BG_IMAGE = Path("images/bg5.jpg")
 COLLISION__AUDIO = Path("Assets/sound/explosion.wav")
+MUSIC_SOUNDTRACK = Path("Assets/sound/Orbital Colossus.mp3")
 
 class AlienInvasion:
     """Overall class to manage game assets and behavior."""
@@ -41,6 +42,12 @@ class AlienInvasion:
     def __init__(self):
         """Initialize the game, and create game resources."""
         pygame.init()
+
+        # Soundtrack
+        pygame.mixer.music.load(MUSIC_SOUNDTRACK)
+        pygame.mixer.music.set_volume(0.3)
+        pygame.mixer.music.play(-1)
+        
         self.clock = pygame.time.Clock()
         self.settings = Settings()
 
@@ -164,7 +171,7 @@ class AlienInvasion:
 
         if collisions:
             self.collision_audio = pygame.mixer.Sound(COLLISION__AUDIO)
-            self.collision_audio.play()
+            self.collision_audio.play().set_volume(0.3)
 
             for aliens in collisions.values():
                 self.stats.score += self.settings.alien_points * len(aliens)
